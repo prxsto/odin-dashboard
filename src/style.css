@@ -74,8 +74,8 @@ h1 {
 .nav-icon {
   width: 40px;
   height: 40px;
-
-  fill: white;
+  filter: invert(99%) sepia(8%) saturate(0%) hue-rotate(11deg) brightness(115%)
+    contrast(101%);
 }
 
 .nav-link {
